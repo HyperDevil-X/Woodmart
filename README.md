@@ -1,6 +1,6 @@
 <h1 align ="center">RESPONSIVE E-COMMERCE - EVARA</h1>
 <h2><a href="https://hyperdevil-x.github.io/Woodmart/" target="_blank">Website Link</a></h2>
-<img src="cover.PNG">
+<img src="cover.png">
  <h3  align ="center"><b>EVARA- A E-Commerce Website Using HTML5,CSS3,JAVASCRIPT.BOOTSTRAP V5.3</b></h3>
  <br>
 <p>I am eager to share the successful completion of a fully responsive e-commerce project, which I developed using HTML, CSS, JavaScript, Bootstrap. This project showcases my technical skills in front-end development and my ability to implement key e-commerce features effectively.</p>
