@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type = "image/png" href="./images/rel.png">
+    <title>Evara - Fashion Store - Cart Page</title>
+    <!-- Bootstrap v5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .product-card {
+            position: relative;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .view-product-btn {
+            margin-top: 10px;
+            width: 100%;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .view-product-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 91, 187, 0.3);
+        }
+
+        /* Cart Page */
+        .cart-page {
+            display: none;
+            padding: 20px;
+        }
+
+        .cart-product-image img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .cart-product-image img:hover {
+            transform: scale(1.05);
+        }
+
+        .quantity-counter {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .btn-custom {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 91, 187, 0.3);
+        }
+
+        /* Pagination */
+        .pagination {
+            margin-top: 20px;
+        }
+
+        .page-item.active .page-link {
+            background: #007bff;
+            border-color: #007bff;
+            color: white;
+        }
+
+        .page-link {
+            color: #007bff;
+        }
+
+        .page-link:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header-container"></div>
+
+    <div class="container" id="productList">
+        <div class="row g-4" id="productContainer"></div>
+        <nav>
+            <ul class="pagination justify-content-center"></ul>
+        </nav>
+    </div>
+
+    <div id="cartPage" class="cart-page">
+        <button class="btn btn-outline-secondary mb-3" onclick="goBackToProducts()">← Back to Products</button>
+
+        <div class="cart-product-details d-flex flex-column flex-md-row gap-4">
+            <div class="cart-product-image">
+                <img id="cartProductImage" src="" alt="Product Image">
+            </div>
+            <div class="cart-product-info">
+                <h2 id="cartProductTitle"></h2>
+                <p id="cartProductDescription"></p>
+                <p><strong>Category:</strong> <span id="cartProductCategory"></span></p>
+                <p><strong>Subcategory:</strong> <span id="cartProductSubcategory"></span></p>
+                <p><strong>Price:</strong> <span id="cartProductPrice"></span></p>
+
+                <div class="quantity-counter">
+                    <button id="decreaseQuantity" class="btn btn-outline-primary">-</button>
+                    <span id="quantity">1</span>
+                    <button id="increaseQuantity" class="btn btn-outline-primary">+</button>
+                </div>
+
+                <button class="btn-custom mt-3">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <div class="related-products mt-5">
+            <h3>Related Products</h3>
+            <div class="row g-4" id="relatedProductsContainer"></div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Shop.js"></script>
+    <script src="Header-Footer.js"></script>
+
+</body>
+</html>

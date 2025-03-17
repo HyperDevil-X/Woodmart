@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type = "image/png" href="./images/rel.png">
+  <title>Evara - Fashion Store</title>
+
+  <!-- Bootstrap v5.3 (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header will be inserted here -->
+  <div id="header-container"></div>
+
+
+  <!-- CATEGORY LIST -->
+
+  <section class="category-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="category-menu">
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Men's Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">T-Shirts</a></li>
+                            <li><a href="details.html">Shirts</a></li>
+                            <li><a href="details.html">Jeans</a></li>
+                            <li><a href="details.html">Suits</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Women's Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Dresses</a></li>
+                            <li><a href="details.html">Sarees</a></li>
+                            <li><a href="details.html">Lehengas</a></li>
+                            <li><a href="details.html">Tops</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Kids' Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Baby Suits</a></li>
+                            <li><a href="details.html">Frocks</a></li>
+                            <li><a href="details.html">T-Shirts</a></li>
+                            <li><a href="details.html">Jeans</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Formal Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Blazers</a></li>
+                            <li><a href="details.html">Office Shirts</a></li>
+                            <li><a href="details.html">Business Suits</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Casual Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">T-Shirts</a></li>
+                            <li><a href="details.html">Jeans</a></li>
+                            <li><a href="details.html">Shorts</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Ethnic Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Sherwanis</a></li>
+                            <li><a href="details.html">Kurtas</a></li>
+                            <li><a href="details.html">Lehengas</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Sportswear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Track Pants</a></li>
+                            <li><a href="details.html">Jerseys</a></li>
+                            <li><a href="details.html">Gym Wear</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Winter Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Sweaters</a></li>
+                            <li><a href="details.html">Jackets</a></li>
+                            <li><a href="details.html">Woolen Coats</a></li>
+                        </ul>
+                    </li>
+                    <li class="category-item dropdown">
+                        <a href="details.html" class="category-link" data-bs-toggle="dropdown">Luxury Wear</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="details.html">Designer Dresses</a></li>
+                            <li><a href="details.html">Branded Suits</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+  
+  
+  <!-- MAIN -->
+  <main class="container my-4">
+
+    <!-- HERO SECTION -->
+    <section class="hero bg-light py-5 text-center text-md-start shadow-lg rounded">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <span class="text-success fw-bold">Hot Promotions</span>
+          <h1 class="display-4 fw-bold">
+            Fashion Trending <span style="color: #008080;">Great Collections</span>
+          </h1>
+          <p class="lead">
+            Save more with coupons & up to <span class="text-danger fw-bold">20% off</span>
+          </p>
+          <a href="details.html" class="btn btn-primary btn-lg shadow" style="background-color: #008080;">Shop Now</a>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <img src="./images/home-img.png" alt="Fashion Sale" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES SECTION -->
+    <section class="categories my-5">
+      <h3 class="text-center mb-4 fw-bold" style="color: #008080;">Popular Categories</h3>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide category-box">
+            <img src="./images/category-1.jpg" alt="T-Shirt" class="img-fluid">
+            <h3 class="fw-bold mt-2">T-Shirt</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-2.jpg" alt="Bags" class="img-fluid">
+            <h3 class="fw-bold mt-2">Bags</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-3.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Sandal</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-4.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Scarf Cap</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-5.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Shoes</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-6.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Pillowcase</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-7.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Jumpsuite</h3>
+          </div>
+          <div class="swiper-slide category-box">
+            <img src="./images/category-4.jpg" alt="Sandal" class="img-fluid">
+            <h3 class="fw-bold mt-2">Hats</h3>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- PRODUCTS SECTION -->
+  <section class="products container my-5">
+    <!-- Tab Navigation -->
+    <ul class="nav nav-tabs mb-4" id="productsTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="featured-tab" data-bs-toggle="tab" data-bs-target="#featured" type="button"
+          role="tab" aria-controls="featured" aria-selected="true">Featured</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="popular-tab" data-bs-toggle="tab" data-bs-target="#popular" type="button"
+          role="tab" aria-controls="popular" aria-selected="false">Popular</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="new-tab" data-bs-toggle="tab" data-bs-target="#new" type="button" role="tab"
+          aria-controls="new" aria-selected="false">New Added</button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="productsTabContent">
+      <!-- Featured Tab -->
+      <div class="tab-pane fade show active" id="featured" role="tabpanel" aria-labelledby="featured-tab">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <!-- Product Item 1 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-1-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-1-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat for Product Items 2, 3, and 4 -->
+          <!-- Product Item 2 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-2-1.jpg" class="img-fluid default-image" alt="Product Image 2">
+                  <img src="./images/product-2-2.jpg" class="img-fluid hover-image" alt="Product Image 2 Hover">
+                </a>
+                <div class="product-badge light-green">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 3 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-3-1.jpg" class="img-fluid default-image" alt="Product Image 3">
+                  <img src="./images/product-3-2.jpg" class="img-fluid hover-image" alt="Product Image 3 Hover">
+                </a>
+                <div class="product-badge light-orange">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 4 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-4-1.jpg" class="img-fluid default-image" alt="Product Image 4">
+                  <img src="./images/product-4-2.jpg" class="img-fluid hover-image" alt="Product Image 4 Hover">
+                </a>
+                <div class="product-badge light-blue">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 5 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-5-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-5-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 6 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-6-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-6-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 7 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-7-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-7-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 8 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-8-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-8-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popular Tab -->
+      <div class="tab-pane fade" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <!-- Product Item 1 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-8-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-8-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 2 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-9-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-9-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 3 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-10-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-10-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 4 -->
+          <div class="col">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-11-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-11-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div><!-- End of Row 1 -->
+        <!-- Row 2 -->
+      </div>
+
+      <!-- New Added Tab -->
+      <div class="tab-pane fade" id="new" role="tabpanel" aria-labelledby="new-tab">
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- Product Item 1 -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-12-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-12-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 2 -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-13-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-13-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 3 -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-10-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-10-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Item 4 -->
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-card h-100">
+              <div class="position-relative">
+                <a href="details.html">
+                  <img src="./images/product-5-1.jpg" class="img-fluid default-image" alt="Product Image 1">
+                  <img src="./images/product-5-2.jpg" class="img-fluid hover-image" alt="Product Image 1 Hover">
+                </a>
+                <div class="product-badge light-pink">Hot</div>
+                <div class="product-actions">
+                  <a href="#" class="action-btn" aria-label="Quick View"><i class="fas fa-eye"></i></a>
+                  <a href="#" class="action-btn" aria-label="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                  <a href="#" class="action-btn" aria-label="Compare"><i class="fas fa-shuffle"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <span class="text-muted small">Clothing</span>
+                <a href="details.html" class="text-decoration-none">
+                  <h5 class="card-title">Colorful Pattern Shirts</h5>
+                </a>
+                <div class="product-rating mb-2">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="product-price">
+                  <span class="new-price">₹238.85</span>
+                  <span class="old-price">₹245.8</span>
+                </div>
+                <a href="details.html">
+                  <button class="cart-btn mt-3"><i class="fas fa-cart-shopping"></i> Add to Cart</button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End of Row 1 -->
+
+        <!-- Row 2 -->
+      </div>
+    </div>
+  </section>
+
+  
+<!-- DEALS SECTION -->
+<section class="deals section">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Deals 1 -->
+      <div class="col-lg-6 col-md-12">
+        <div class="deals__item deals__item1">
+          <div class="deals__content">
+            <h3 class="deals__band" style="color: #008080 !important;">Deal of the Day</h3>
+            <span class="deals__category">Limited Quantities.</span>
+            <h4 class="deals__title" style="font-weight: 500;">Summer Collection New Modern Designs</h4>
+
+            <div class="deals__price">
+              <span class="new__price">₹139.00</span>
+              <span class="old__price">₹160.99</span>
+            </div>
+
+            <p class="deals__countdown-text">Hurry up! Offer Ends In:</p>
+
+            <div class="countdown">
+              <div class="countdown__amount"><p>02</p><span>Days</span></div>
+              <div class="countdown__amount"><p>22</p><span>Hours</span></div>
+              <div class="countdown__amount"><p>57</p><span>Mins</span></div>
+              <div class="countdown__amount"><p>24</p><span>Sec</span></div>
+            </div>
+
+            <div class="deals__btn">
+              <a href="details.html" class="btn btn-primary" style="background-color:#008080; margin-top: 20px;">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Deals 2 -->
+      <div class="col-lg-6 col-md-12">
+        <div class="deals__item deals__item2">
+          <div class="deals__content">
+            <h3 class="deals__band" style="color:#008080;">Women Clothing</h3>
+            <span class="deals__category">Shirt & Bag.</span>
+            <h4 class="deals__title" style="font-weight: 500;">Try Something New On Vacation</h4>
+
+            <div class="deals__price">
+              <span class="new__price">₹178.00</span>
+              <span class="old__price">₹256.99</span>
+            </div>
+
+            <p class="deals__countdown-text">Hurry up! Offer Ends In:</p>
+
+            <div class="countdown">
+              <div class="countdown__amount"><p>02</p><span>Days</span></div>
+              <div class="countdown__amount"><p>22</p><span>Hours</span></div>
+              <div class="countdown__amount"><p>57</p><span>Mins</span></div>
+              <div class="countdown__amount"><p>24</p><span>Sec</span></div>
+            </div>
+
+            <div class="deals__btn">
+              <a href="details.html" class="btn btn-primary" style="background-color: #008080; margin-top: 20px;">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- NEW ARRIVAL SECTION -->
+<!-- NEW ARRIVALS SECTION -->
+<section class="new-arrivals section">
+  <div class="container">
+      <h2 class="section-title">New Arrival Products</h2>
+      <p class="section-subtitle">Check out the latest arrivals in our store</p>
+
+      <!-- Bootstrap Carousel (Full Width in Row) -->
+      <div class="carousel-container">
+          <div id="newArrivalCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <!-- Slide 1 -->
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-13-1.jpg" class="product-img" alt="Product 1">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-12-2.jpg" class="product-img" alt="Product 2">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-9-1.jpg" class="product-img" alt="Product 3">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-5-2.jpg" class="product-img" alt="Product 4">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Slide 2 -->
+                  <div class="carousel-item">
+                      <div class="row">
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-7-1.jpg" class="product-img" alt="Product 5">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-8-2.jpg" class="product-img" alt="Product 6">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-6-1.jpg" class="product-img" alt="Product 7">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-6">
+                              <div class="product-card">
+                                  <img src="./images/product-4-2.jpg" class="product-img" alt="Product 8">
+                                  <div class="product-overlay">
+                                      <a href="details.html" class="btn btn-shop">Shop Now</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Carousel Controls BELOW the slider -->
+          <div class="carousel-controls">
+            <button class="carousel-control-prev" type="button" data-bs-target="#newArrivalCarousel" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i> <!-- Font Awesome Left Arrow -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#newArrivalCarousel" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i> <!-- Font Awesome Right Arrow -->
+            </button>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Newsletter Section -->
+<section class="newsletter-section">
+  <div class="container">
+      <div class="newsletter-box">
+          <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+          <p class="newsletter-subtitle">Get the latest updates and offers directly in your inbox.</p>
+
+          <form id="newsletterForm" class="newsletter-form">
+              <div class="input-group">
+                  <input type="email" id="emailInput" class="form-control" placeholder="Enter your email" required>
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+              </div>
+              <p id="successMessage" class="success-message">✔️ Successfully Subscribed!</p>
+              <p id="errorMessage" class="error-message">❌ Please enter a valid email!</p>
+          </form>
+      </div>
+  </div>
+</section>
+
+<!-- Footer will be inserted here -->
+
+<div id="footer-container"></div>
+
+
+
+  <!-- SWIPER JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Bootstrap 5.3 JS (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- SCRIPT -->
+   <script src="Header-Footer.js"></script>
+  <script src="Script.js"></script>
+  <script src="Newsletter.js"></script>
+
+
+</body>
+</html>
