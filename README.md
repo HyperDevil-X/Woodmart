@@ -21,7 +21,7 @@
  <li>📸 Product Image Slider</li>
  <li>🛒 Categories Menu List Dropdown</li>
  <li>📧 Newsletter Subscription</li>
- <li>🔍 Product Filter (Categories and Sub-categories) Dynamicallyr</li>
+ <li>🔍 Product Filter (Categories and Sub-categories) Dynamically</li>
  <li>💰 Price Range Filter Dynamically</li>
  <li>🎁 Pop-up Add to Cart</li>
  <li>🛒 Product Update in Cart Dynamically Using LocalStorage</li>
